@@ -5,7 +5,7 @@ metadata:
     certmanager.k8s.io/acme-challenge-type: http01
     certmanager.k8s.io/issuer: letsencrypt-prod
     kubernetes.io/ingress.class: traefik
-#    traefik.frontend.rule.type: PathPrefixStrip
+    traefik.frontend.rule.type: PathPrefixStrip
   creationTimestamp: null
   name: podinfo
   namespace: dev
